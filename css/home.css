@@ -1,0 +1,146 @@
+@font-face {
+    font-family: yzyFont;
+    src:url("../font/yzy.ttf");
+}
+
+nav{
+    font-family: yzyFont;
+}
+
+body{
+    background: rgb(71,5,91);
+    background: radial-gradient(circle, rgba(71,5,91,1) 35%, rgba(53,0,69,1) 100%); 
+}
+
+.shoeOff {
+    position: relative;
+    top: 0%;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0%;
+    left: 0;
+    height: auto;  max-width: 50%;
+  }
+  .image2 {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    height: auto;  max-width: 50%;
+  }
+  
+  .text1{
+    font-family: yzyFont;
+    color: whitesmoke;
+    float: right;
+    margin-top: 18%;
+    margin-right: 11%;
+    margin-left: 5%;
+    font-size: 500%;
+}
+
+.button1{
+    float: right;
+    background-color: #710193;
+    margin-top: 18%;
+    margin-right: 11%;
+    margin-left: 5%;
+    font-size: 500%;
+}
+
+@media (max-width: 1250px){
+    .shoeOff {
+        position: relative;
+        top: 0%;
+        left: 0;
+      }
+      .image1 {
+        position: relative;
+        top: 0%;
+        left: 0;
+        height: auto;  max-width: 50%;
+      }
+      .image2 {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        height: auto;  max-width: 50%;
+      }
+      
+      .text1{
+        font-family: yzyFont;
+        color: whitesmoke;
+        float: right;
+        margin-top: 18%;
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 500%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .shoeOff {
+        position: relative;
+        top: 0%;
+        left: 0;
+      }
+      .image1 {
+        position: relative;
+        top: 0%;
+        left: 0;
+        height: auto;  max-width: 60%;
+        
+      }
+      .image2 {
+        position: absolute;
+        top: 32%;
+        left: 32%;
+        height: auto;  max-width: 60%;
+        
+      }
+      .text1 {
+        position: absolute;
+        font-size: 350%;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -45%);
+        text-align: center;
+        overflow: hidden;
+      }
+      
+    
+}
+
+@media (max-width: 800px) {
+    .shoeOff {
+        position: relative;
+        top: 0%;
+        left: 0;
+      }
+      .image1 {
+        position: relative;
+        top: 0%;
+        left: 0;
+        height: auto;  max-width: 60%;
+        
+      }
+      .image2 {
+        position: absolute;
+        top: 32%;
+        left: 32%;
+        height: auto;  max-width: 60%;
+        
+      }
+      .text1 {
+        position: absolute;
+        font-size: 250%;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -45%);
+        text-align: center;
+        overflow: hidden;
+      }
+      
+    
+}
